@@ -2,7 +2,7 @@
 
 > 가위바위보 시뮬레이터
 
-![img](./img/ex.png)
+![img](./public/ex.png)
 
 ### 영감받은 영상
 

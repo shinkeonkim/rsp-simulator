@@ -1,56 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>가위바위보 시뮬레이션</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Vite App</title>
 </head>
 <body>
-  <div class="counter-container">
-      <div id="scissorsCounter" class="counter-item">가위: 0</div>
-      <div id="rockCounter" class="counter-item">바위: 0</div>
-      <div id="paperCounter" class="counter-item">보: 0</div>
-  </div>
-    <div class="container">
-        <div id="canvas" class="canvas"></div>
-        <div class="controls">
-            <h2>가위바위보 시뮬레이션</h2>
-
-            <div class="input-group">
-                <h3>요소 개수 설정</h3>
-                <label for="scissorsCount">가위 개수:</label>
-                <input type="number" id="scissorsCount" value="20" min="0">
-
-                <label for="rockCount">바위 개수:</label>
-                <input type="number" id="rockCount" value="20" min="0">
-
-                <label for="paperCount">보 개수:</label>
-                <input type="number" id="paperCount" value="20" min="0">
-            </div>
-
-            <div class="input-group">
-                <h3>시뮬레이션 설정</h3>
-                <label for="speed">갱신 속도 (ms):</label>
-                <input type="number" id="speed" value="10" min="10">
-            </div>
-            
-            <div class="input-group">
-              <h3>요소 속도 설정</h3>
-              <label for="scissorsSpeed">가위 속도:</label>
-              <input type="number" id="scissorsSpeed" value="2" min="1">
-          
-              <label for="rockSpeed">바위 속도:</label>
-              <input type="number" id="rockSpeed" value="2" min="1">
-          
-              <label for="paperSpeed">보 속도:</label>
-              <input type="number" id="paperSpeed" value="2" min="1">
-          </div>
-
-            <button onclick="startSimulation()">시뮬레이션 시작하기</button>
-            <button onclick="stopSimulation()">시뮬레이션 종료하기</button>
-        </div>
-    </div>
-    <script src="script.js"></script>
+<div id="app"></div>
+<script type="module" src="/src/main.ts"></script>
 </body>
 </html>

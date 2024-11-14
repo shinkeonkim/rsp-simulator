@@ -109,13 +109,13 @@ button:hover {
 }
 
 .scissors {
-  background-image: url('./scissors.png');  /* 가위 이미지 경로 */
+  background-image: url('scissors.png');  /* 가위 이미지 경로 */
 }
 
 .rock {
-  background-image: url('./rock.png');  /* 바위 이미지 경로 */
+  background-image: url('rock.png');  /* 바위 이미지 경로 */
 }
 
 .paper {
-  background-image: url('./paper.png');  /* 보 이미지 경로 */
+  background-image: url('paper.png');  /* 보 이미지 경로 */
 }
